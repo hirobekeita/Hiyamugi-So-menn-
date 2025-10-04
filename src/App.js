@@ -7,22 +7,22 @@ const quizData = [
   {
     id: 1,
     question: "Question 1",
-    imageA: "https://via.placeholder.com/300x200/3498db/ffffff?text=Image+A",
-    imageB: "https://via.placeholder.com/300x200/e74c3c/ffffff?text=Image+B",
+    imageA: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%233498db' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage A%3C/text%3E%3C/svg%3E",
+    imageB: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23e74c3c' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage B%3C/text%3E%3C/svg%3E",
     correctAnswer: "A"
   },
   {
     id: 2,
     question: "Question 2",
-    imageA: "https://via.placeholder.com/300x200/2ecc71/ffffff?text=Image+A",
-    imageB: "https://via.placeholder.com/300x200/f39c12/ffffff?text=Image+B",
+    imageA: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%232ecc71' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage A%3C/text%3E%3C/svg%3E",
+    imageB: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23f39c12' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage B%3C/text%3E%3C/svg%3E",
     correctAnswer: "B"
   },
   {
     id: 3,
     question: "Question 3",
-    imageA: "https://via.placeholder.com/300x200/9b59b6/ffffff?text=Image+A",
-    imageB: "https://via.placeholder.com/300x200/1abc9c/ffffff?text=Image+B",
+    imageA: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%239b59b6' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage A%3C/text%3E%3C/svg%3E",
+    imageB: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%231abc9c' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage B%3C/text%3E%3C/svg%3E",
     correctAnswer: "A"
   }
 ];
