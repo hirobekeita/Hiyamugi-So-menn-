@@ -1,0 +1,73 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.App-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.App-header h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.results {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.results h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.results .score {
+  font-size: 1.5rem;
+  color: #555;
+  margin: 20px 0;
+}
+
+.results .percentage {
+  font-size: 1.8rem;
+  color: #2ecc71;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.restart-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.restart-button:hover {
+  background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+  .App-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .results {
+    padding: 30px 20px;
+  }
+}
