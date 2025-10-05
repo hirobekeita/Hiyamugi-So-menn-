@@ -40,10 +40,10 @@ function Quiz({
       {showFeedback && (
         <div className={`feedback ${isCorrect ? 'correct' : 'incorrect'}`}>
           <p>
-            {isCorrect ? '✓ Correct!' : `✗ Incorrect. The correct answer is ${question.correctAnswer}.`}
+            {isCorrect ? '✓ 正解!' : `✗ 残念！　正しくのは ${question.correctAnswer}.`}
           </p>
           <button className="next-button" onClick={onNextQuestion}>
-            {questionNumber < totalQuestions ? 'Next Question' : 'See Results'}
+            {questionNumber < totalQuestions ? '次の質問へ' : '結果発表！'}
           </button>
         </div>
       )}
