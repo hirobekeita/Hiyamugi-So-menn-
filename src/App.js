@@ -6,21 +6,21 @@ import Quiz from './Quiz';
 const quizData = [
   {
     id: 1,
-    question: "Question 1",
+    question: "質問１：「ひやむぎ」はどっち？",
     imageA: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%233498db' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage A%3C/text%3E%3C/svg%3E",
     imageB: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23e74c3c' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage B%3C/text%3E%3C/svg%3E",
     correctAnswer: "A"
   },
   {
     id: 2,
-    question: "Question 2",
+    question: "質問２：「そうめん」はどっち？",
     imageA: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%232ecc71' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage A%3C/text%3E%3C/svg%3E",
     imageB: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23f39c12' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage B%3C/text%3E%3C/svg%3E",
     correctAnswer: "B"
   },
   {
     id: 3,
-    question: "Question 3",
+    question: "質問３：「鯖そうめん」はどっち？",
     imageA: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%239b59b6' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage A%3C/text%3E%3C/svg%3E",
     imageB: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%231abc9c' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage B%3C/text%3E%3C/svg%3E",
     correctAnswer: "A"
