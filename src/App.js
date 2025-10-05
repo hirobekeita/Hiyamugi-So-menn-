@@ -94,15 +94,15 @@ function App() {
         />
       ) : (
         <div className="results">
-          <h2>Quiz Complete!</h2>
+          <h2>クイズ結果</h2>
           <p className="score">
-            You got <strong>{correctAnswers}</strong> out of <strong>{totalQuestions}</strong> correct!
+            あなたは <strong>{correctAnswers}</strong> / <strong>{totalQuestions}</strong> 正解!
           </p>
           <p className="percentage">
             Score: {Math.round((correctAnswers / totalQuestions) * 100)}%
           </p>
           <button className="restart-button" onClick={handleRestartQuiz}>
-            Restart Quiz
+            クイズ再挑戦！
           </button>
         </div>
       )}
