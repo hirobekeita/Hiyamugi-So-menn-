@@ -3,12 +3,12 @@ import './App.css';
 import Quiz from './Quiz';
 
 // Import images
-import hiyamugi003 from './調理加工食品類_ひやむぎ_003_205mm_200g.png';
-import soumen002 from './調理加工食品類_そうめん_002_153mm_100g.png';
-import hiyamugi004 from './調理加工食品類_ひやむぎ_004_240mm_200g.png';
-import soumen001 from './調理加工食品類_そうめん_001_189mm_100g.png';
-import yakisabasoumen from './郷土料理_焼きさばそうめん_002_217mm_436g.png';
-import hiyamugi001 from './調理加工食品類_ひやむぎ_001_206mm_205g.png';
+import hiyamugi003 from './ひやむぎ_003_205mm_200g.png';
+import soumen002 from './そうめん_002_153mm_100g.png';
+import hiyamugi004 from './ひやむぎ_004_240mm_200g.png';
+import soumen001 from './そうめん_001_189mm_100g.png';
+import yakisabasoumen from './焼きさばそうめん_002_217mm_436g.png';
+import hiyamugi001 from './ひやむぎ_001_206mm_205g.png';
 
 // Sample quiz data - can be easily replaced with actual images
 const quizData = [
