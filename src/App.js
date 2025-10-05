@@ -2,27 +2,35 @@ import React, { useState } from 'react';
 import './App.css';
 import Quiz from './Quiz';
 
+// Import images
+import hiyamugi003 from './調理加工食品類_ひやむぎ_003_205mm_200g.png';
+import soumen002 from './調理加工食品類_そうめん_002_153mm_100g.png';
+import hiyamugi004 from './調理加工食品類_ひやむぎ_004_240mm_200g.png';
+import soumen001 from './調理加工食品類_そうめん_001_189mm_100g.png';
+import yakisabasoumen from './郷土料理_焼きさばそうめん_002_217mm_436g.png';
+import hiyamugi001 from './調理加工食品類_ひやむぎ_001_206mm_205g.png';
+
 // Sample quiz data - can be easily replaced with actual images
 const quizData = [
   {
     id: 1,
     question: "質問１：「ひやむぎ」はどっち？",
-    imageA: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%233498db' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage A%3C/text%3E%3C/svg%3E",
-    imageB: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23e74c3c' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage B%3C/text%3E%3C/svg%3E",
+    imageA: hiyamugi003,
+    imageB: soumen002,
     correctAnswer: "A"
   },
   {
     id: 2,
     question: "質問２：「そうめん」はどっち？",
-    imageA: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%232ecc71' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage A%3C/text%3E%3C/svg%3E",
-    imageB: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23f39c12' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage B%3C/text%3E%3C/svg%3E",
+    imageA: hiyamugi004,
+    imageB: soumen001,
     correctAnswer: "B"
   },
   {
     id: 3,
     question: "質問３：「鯖そうめん」はどっち？",
-    imageA: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%239b59b6' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage A%3C/text%3E%3C/svg%3E",
-    imageB: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%231abc9c' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='white'%3EImage B%3C/text%3E%3C/svg%3E",
+    imageA: yakisabasoumen,
+    imageB: hiyamugi001,
     correctAnswer: "A"
   }
 ];
@@ -71,7 +79,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Image Quiz Game</h1>
+        <h1>そうめん・ひやむぎクイズ</h1>
       </header>
       
       {!quizCompleted ? (
