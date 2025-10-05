@@ -9,6 +9,8 @@ import hiyamugi004 from './ひやむぎ_004_240mm_200g.png';
 import soumen001 from './そうめん_001_189mm_100g.png';
 import yakisabasoumen from './焼きさばそうめん_002_217mm_436g.png';
 import hiyamugi001 from './ひやむぎ_001_206mm_205g.png';
+import soumen010 from './そうめん（乾）_束.png';
+import soumen011 from './そうめん（乾）_1本.png';
 
 // Sample quiz data - can be easily replaced with actual images
 const quizData = [
@@ -31,6 +33,13 @@ const quizData = [
     question: "質問３：「鯖そうめん」はどっち？",
     imageA: yakisabasoumen,
     imageB: hiyamugi001,
+    correctAnswer: "A"
+  },
+  {
+    id: 4,
+    question: "質問4：「より多いそうめん」はどっち？",
+    imageA: soumen010,
+    imageB: soumen011,
     correctAnswer: "A"
   }
 ];
