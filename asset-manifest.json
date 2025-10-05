@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Hiyamugi-So-menn-/static/css/main.b5733737.css",
+    "main.js": "/Hiyamugi-So-menn-/static/js/main.a4ca8a29.js",
+    "static/media/焼きさばそうめん_002_217mm_436g.png": "/Hiyamugi-So-menn-/static/media/焼きさばそうめん_002_217mm_436g.a8745d052dff51d716d4.png",
+    "static/media/ひやむぎ_004_240mm_200g.png": "/Hiyamugi-So-menn-/static/media/ひやむぎ_004_240mm_200g.3c4b701dac6b26a9b6f0.png",
+    "static/media/ひやむぎ_001_206mm_205g.png": "/Hiyamugi-So-menn-/static/media/ひやむぎ_001_206mm_205g.5804222067151b9d09ca.png",
+    "static/media/ひやむぎ_003_205mm_200g.png": "/Hiyamugi-So-menn-/static/media/ひやむぎ_003_205mm_200g.e68ff4b1423adc0ca62d.png",
+    "static/media/そうめん_001_189mm_100g.png": "/Hiyamugi-So-menn-/static/media/そうめん_001_189mm_100g.0ae2623e7d8848ff7dbb.png",
+    "static/media/そうめん_002_153mm_100g.png": "/Hiyamugi-So-menn-/static/media/そうめん_002_153mm_100g.a85c6c1a0bd311bff619.png",
+    "index.html": "/Hiyamugi-So-menn-/index.html",
+    "main.b5733737.css.map": "/Hiyamugi-So-menn-/static/css/main.b5733737.css.map",
+    "main.a4ca8a29.js.map": "/Hiyamugi-So-menn-/static/js/main.a4ca8a29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5733737.css",
+    "static/js/main.a4ca8a29.js"
+  ]
+}
